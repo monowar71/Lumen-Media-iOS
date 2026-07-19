@@ -1,6 +1,6 @@
 # AGENTS.md — client_ios (iOS / iPadOS / tvOS)
 
-Нативный клиент FreePlex на Swift + SwiftUI. Цель: красивый, стабильный, тестируемый плеер и навигация. Сначала прочитай корневой [../AGENTS.md](../AGENTS.md) и [../docs/clients.md](../docs/clients.md).
+Нативный клиент LumenMedia на Swift + SwiftUI. Цель: красивый, стабильный, тестируемый плеер и навигация. Сначала прочитай корневой [../AGENTS.md](../AGENTS.md) и [../docs/clients.md](../docs/clients.md).
 
 ## Стек
 
@@ -8,13 +8,13 @@
 - **Swift Concurrency** (`async/await`, `actor`) для сети и состояния.
 - **AVFoundation / AVPlayer** для воспроизведения (HLS нативно, HW-декод).
 - Сетевой слой — **сгенерированный SDK** из OpenAPI (Apple `swift-openapi-generator` предпочтительно).
-- Таргеты: `FreePlex` (iOS/iPadOS) и `FreePlex TV` (tvOS) в одном проекте с общим ядром (Swift Package с фичами/моделями/SDK).
+- Таргеты: `LumenMedia` (iOS/iPadOS) и `LumenMedia TV` (tvOS) в одном проекте с общим ядром (Swift Package с фичами/моделями/SDK).
 
 ## Архитектура
 
 ```
 client_ios/
-├── FreePlex.xcodeproj (или Package.swift + app targets)
+├── LumenMedia.xcodeproj (или Package.swift + app targets)
 ├── Packages/
 │   └── Core/                # общий код: модели, SDK-обёртка, ViewModels
 │       ├── Networking/      # SDK + APIClient (адрес сервера, токены)
