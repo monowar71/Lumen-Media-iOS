@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+.vscode/
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+*.swp
