@@ -5,4 +5,8 @@
 xcuserdata/
 DerivedData/
 build/
+.build/
 *.swp
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+*.xcworkspace/xcshareddata/swiftpm/
+.swiftpm/
