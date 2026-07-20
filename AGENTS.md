@@ -1,6 +1,6 @@
 # AGENTS.md — client_ios (iOS / iPadOS / tvOS)
 
-Нативный клиент LumenMedia на Swift + SwiftUI. Цель: красивый, стабильный, тестируемый плеер и навигация. Сначала прочитай корневой [../AGENTS.md](../AGENTS.md) и [../docs/clients.md](../docs/clients.md).
+Нативный клиент LumenMedia на Swift + SwiftUI. Цель: красивый, стабильный, тестируемый плеер и навигация. Репозиторий: [Lumen-Media-iOS](https://github.com/monowar71/Lumen-Media-iOS). Сервер: [Lumen-Media-Server](https://github.com/monowar71/Lumen-Media-Server). В umbrella-монорепо также см. корневой `AGENTS.md` и `docs/clients.md`.
 
 ## Стек
 
