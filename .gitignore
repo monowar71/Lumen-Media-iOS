@@ -1,4 +1,5 @@
 .DS_Store
+**/.DS_Store
 .idea/
 .vscode/
 *.xcuserstate
@@ -7,6 +8,9 @@ DerivedData/
 build/
 .build/
 *.swp
+*.local
+.env
+.env.*
 *.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
 *.xcworkspace/xcshareddata/swiftpm/
 .swiftpm/
